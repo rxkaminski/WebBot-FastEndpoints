@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="3.11.0" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="3.11.0" />
+    <PackageReference Include="WebBotCore" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
